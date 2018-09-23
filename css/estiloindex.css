@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.menuH a {
+    color: white;
+    background-color: #000000;
+    text-decoration: none;
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 4%;
+}
+
+.menuH a:hover{
+    background-color: #30bff4;
+    color: black;
+}
+
+header{
+    text-align: center;
+    color: white;
+    margin-bottom: 4%;
+    font-size: 20px;
+    
+}
+.separador1{
+    height: 10px;
+    clear: both;
+
+}
+
+.separador2{
+    width: 2%;
+    height: 1px;
+    float: left;
+}
+.centro{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+    
+}
+
+img{
+    transition: all 0.5s ease;
+    border-style: solid;
+    border-color: white;
+}
+
+img:hover{
+    transform:scale(0.9);
+    border-radius: 30px;
+}
+.main img{
+    width: 49%;
+    float: left;
+    
+}
+body{
+    font-family:serif;
+    font-style: oblique;
+    background-image: url(../images/fondo3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.main {
+    
+    height: 700px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding: 30px;
+}
+
+footer .copia{
+    float: left;
+}
